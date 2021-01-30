@@ -1,0 +1,7 @@
+.navbar-item {
+    text-transform: uppercase;
+}
+
+.input, .button {
+    border-radius: 0;
+}
