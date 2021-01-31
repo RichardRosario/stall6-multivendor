@@ -26,8 +26,8 @@
                 <div class="navbar-start">
                 <a class="navbar-item">
 
-                <a class="navbar-item">
-                    Documentation
+                <a class="navbar-item" href="{% url 'vendors-list' %}">
+                    Vendors
                 </a>
 
                 <div class="navbar-item has-dropdown is-hoverable">
@@ -54,7 +54,7 @@
                 </div>
 
                 <div class="navbar-end">
-                    <div class="navbar-item"><a href="{% url 'contact' %}"> Contact</a></div>
+                    <div class="navbar-item"><a href="{% url 'contact' %}" class="contact"> Contact</a></div>
                     <div class="navbar-item">
                         <div class="buttons">
                         <a class="button is-primary">
@@ -80,7 +80,7 @@
     <footer class="footer">
     <div class="content has-text-centered">
         <p>
-        <strong>Stall</strong> by <a href="https://rosario.solutions">Richard ROsario</a>. The source code is licensed
+        <strong>StallCommerce</strong> by <a href="https://rosario.solutions">Richard Rosario</a>. The source code is licensed
         <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
         is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
         </p>
@@ -88,4 +88,4 @@
     </footer>
     <script src="{% static 'scripts/main.js' %}"></script>
 </body>
-</html>
+</htmlo

@@ -2,6 +2,11 @@
 {% block title %}Frontpage{% endblock title %}
 
 {% block content %}
-
 <h1>This is the frontpage</h1>
+<div> {% for vendor in  object_list %}
+<p>{{vendor.name}}</p>
+{% empty %}
+No vendors registered yet
+{% endfor %}
+</div>
 {% endblock content %}
