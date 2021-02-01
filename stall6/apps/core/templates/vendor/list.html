@@ -1,0 +1,17 @@
+{% extends 'core/base.html' %}
+
+{% block content %}
+{% for vendor in vendors %}
+<div>Seller Name: 
+
+{{vendor.name}} 
+</div>
+<div>Email: 
+
+{{vendor.email}} 
+</div>
+<div>Seller since: {{vendor.created_at}}</div>
+<div>Upline: {{vendor.created_by}}</div>
+{% endfor %}
+
+{% endblock content %}
